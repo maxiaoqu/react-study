@@ -26,6 +26,9 @@
 - TypeScript
 - Less\css
 
+## 相关目录
+[第一天学习:核心概念](/src/demo-code01)
+
 ## 安装
 ```
 npm install
