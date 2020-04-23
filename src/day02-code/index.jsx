@@ -1,6 +1,6 @@
 import React from 'react';
 import AllUi from './allUi';
-import AnxuUi from './AnxuUi';
+import AnuUi from './anuUi';
 
 export default class DemoIndex1 extends React.Component {
     render() {
@@ -10,17 +10,12 @@ export default class DemoIndex1 extends React.Component {
                     <hr/>
                     <li>
                         全局使用Css:
-                        <AllUi></AllUi>
+                        <AllUi/>
                     </li>
                     <hr/>
                     <li>
                         按需加载Css:
-                        <AnxuUi></AnxuUi>
-                    </li>
-                    <hr/>
-                    <li>
-                        条件渲染组件:
-
+                        <AnuUi/>
                     </li>
                 </ul>
             </div>
