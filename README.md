@@ -28,7 +28,7 @@
 
 ## 相关目录
 [第一天学习:核心概念](/src/day01-code)
-[第一天学习:Antd UI的使用](/src/day02-code)
+[第一天学习:Ant Design UI的使用](/src/day02-code)
 
 ## 安装
 ```
