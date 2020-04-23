@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DemoIndex1 from './demo-code01/index';
+import DemoIndex1 from './day01-code/index';
 import logo from './logo.svg';
 import './App.css';
 
