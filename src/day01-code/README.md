@@ -1,3 +1,5 @@
+> ## 核心概念
+
 ### JSX语法介绍--->>>(JsxDemo.jsx)
 JSX语法：JavaScript + XML语法(HTML)
 解读jsx语法：遇到<>按照HTML语法解析，遇到{}按照JavaScript
