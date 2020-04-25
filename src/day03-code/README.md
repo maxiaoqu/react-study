@@ -7,12 +7,21 @@
 
 
 ### Fetch Get请求--->>>(fetchGet.jsx)
+1、怎么使用Fetch获取数据并渲染
 
 ### Fetch Post请求--->>>(fetchPost.jsx)
+模拟post请求
 
 ### Fetch 跨域问题--->>>(fetchProxy.jsx)
+参考create-react-app的相关文档
 
 ### Fetch 跨域问题（mock）--->>>(fetchProxyMock.jsx)
+mock数据使用node，具体参考mock文件夹，
+具体使用方法：
+* 1、开启一个新的cmd窗口，
+* 2、cd ./mock
+* 3、node index.js
+* 4、访问：http://localhost:3100/apiServe/list
 
-### Fetch 跨域问题（mock）--->>>(fetchComApi.jsx)
-
+### Fetch 封装--->>>(fetchComApi.jsx)
+具体参考utils/http.js文件和api文件夹，
