@@ -1,18 +1,18 @@
 import React from 'react';
 import Demo01Jsx from './Demo01Jsx';
 import Demo02Components from './Demo02Components';
+import Demo03IfComponents from "./Demo03IfComponents";
 import Demo04Porps from "./Demo04Porps";
 import Demo05PropTypes from "./Demo05PropTypes";
 import Demo06State from "./Demo06State";
-import SetstateDemo from "./Demo07Setstate";
+import Demo07Setstate from "./Demo07Setstate";
 import Demo08Lifecycle from "./Demo08Lifecycle";
-import Demo03IfComponents from "./Demo03IfComponents";
 import Demo09ListKeys from "./Demo09ListKeys";
 import Demo10From from "./Demo10From";
 import Demo11FromRef from "./Demo11FromRef";
 import Demo12Ref from "./Demo12Ref";
-import ParentIndex from "./components/ParentIndex";
 import Demo13Inheritance from "./Demo13Inheritance";
+import ParentIndex from "./components/ParentIndex";
 
 export default class DemoIndex1 extends React.Component {
     constructor() {
@@ -65,7 +65,7 @@ export default class DemoIndex1 extends React.Component {
                     <hr/>
                     <li>
                         setState更新是同步还是异步:
-                        <SetstateDemo/>
+                        <Demo07Setstate/>
                     </li>
                     <hr/>
                     <li>
@@ -94,17 +94,16 @@ export default class DemoIndex1 extends React.Component {
                     </li>
                     <hr/>
                     <li>
-                        状态提升:
-                        <ParentIndex/>
-                    </li>
-                    <hr/>
-                    <li>
                         组合 vs 继承:
                         <Demo13Inheritance>
                             <span>这里插入一条内容，类似于：vue的solt</span>
                         </Demo13Inheritance>
                     </li>
                     <hr/>
+                    <li>
+                        状态提升:
+                        <ParentIndex/>
+                    </li>
 
                 </ul>
             </div>
