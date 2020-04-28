@@ -1,6 +1,6 @@
 import React from 'react';
-import AllUi from './allUi';
-import AnuUi from './anuUi';
+import Demo01AllUi from './Demo01AllUi';
+import Demo02AnuUi from './Demo02AnuUi';
 
 export default class DemoIndex1 extends React.Component {
     render() {
@@ -10,12 +10,12 @@ export default class DemoIndex1 extends React.Component {
                     <hr/>
                     <li>
                         全局使用Css:
-                        <AllUi/>
+                        <Demo01AllUi/>
                     </li>
                     <hr/>
                     <li>
                         按需加载Css:
-                        <AnuUi/>
+                        <Demo02AnuUi/>
                     </li>
                 </ul>
             </div>
