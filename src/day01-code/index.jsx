@@ -1,18 +1,18 @@
 import React from 'react';
-import JsxDemo from './JsxDemo';
-import ComponentsDemo from './ComponentsDemo';
-import PorpsDemo from "./PorpsDemo";
-import PropTypesDemo from "./PropTypesDemo";
-import StateDemo from "./StateDemo";
-import SetstateDemo from "./SetstateDemo";
-import LifecycleDemo from "./LifecycleDemo";
-import IfComponentsDemo from "./IfComponentsDemo";
-import ListKeysDemo from "./ListKeysDemo";
-import FromDemo from "./FromDemo";
-import FromRefDemo from "./FromRefDemo";
-import RefDemo from "./RefDemo";
+import Demo01Jsx from './Demo01Jsx';
+import Demo02Components from './Demo02Components';
+import Demo04Porps from "./Demo04Porps";
+import Demo05PropTypes from "./Demo05PropTypes";
+import Demo06State from "./Demo06State";
+import SetstateDemo from "./Demo07Setstate";
+import Demo08Lifecycle from "./Demo08Lifecycle";
+import Demo03IfComponents from "./Demo03IfComponents";
+import Demo09ListKeys from "./Demo09ListKeys";
+import Demo10From from "./Demo10From";
+import Demo11FromRef from "./Demo11FromRef";
+import Demo12Ref from "./Demo12Ref";
 import ParentIndex from "./components/ParentIndex";
-import InheritanceDemo from "./InheritanceDemo";
+import Demo13Inheritance from "./Demo13Inheritance";
 
 export default class DemoIndex1 extends React.Component {
     constructor() {
@@ -35,32 +35,32 @@ export default class DemoIndex1 extends React.Component {
                     <hr/>
                     <li>
                         JSX 简介:
-                        <JsxDemo/>
+                        <Demo01Jsx/>
                     </li>
                     <hr/>
                     <li>
                         组件:
-                        <ComponentsDemo/>
+                        <Demo02Components/>
                     </li>
                     <hr/>
                     <li>
                         条件渲染组件:
-                        <IfComponentsDemo/>
+                        <Demo03IfComponents/>
                     </li>
                     <hr/>
                     <li>
                         组件Porps:
-                        <PorpsDemo name='码小趣' pinying='maxiaoqu'/>
+                        <Demo04Porps name='码小趣' pinying='maxiaoqu'/>
                     </li>
                     <hr/>
                     <li>
                         PropTypes 进行类型检查:
-                        <PropTypesDemo title="码小趣"/>
+                        <Demo05PropTypes title="码小趣"/>
                     </li>
                     <hr/>
                     <li>
                         State:
-                        <StateDemo/>
+                        <Demo06State/>
                     </li>
                     <hr/>
                     <li>
@@ -70,27 +70,27 @@ export default class DemoIndex1 extends React.Component {
                     <hr/>
                     <li>
                         生命周期:
-                        <LifecycleDemo title={this.state.title} clickChanges={this.clickChange}/>
+                        <Demo08Lifecycle title={this.state.title} clickChanges={this.clickChange}/>
                     </li>
                     <hr/>
                     <li>
                         列表 & Key:
-                        <ListKeysDemo/>
+                        <Demo09ListKeys/>
                     </li>
                     <hr/>
                     <li>
                         表单--受控组件:
-                        <FromDemo/>
+                        <Demo10From/>
                     </li>
                     <hr/>
                     <li>
                         表单--非受控组件:
-                        <FromRefDemo/>
+                        <Demo11FromRef/>
                     </li>
                     <hr/>
                     <li>
                         Refs操作DOM:
-                        <RefDemo/>
+                        <Demo12Ref/>
                     </li>
                     <hr/>
                     <li>
@@ -100,9 +100,9 @@ export default class DemoIndex1 extends React.Component {
                     <hr/>
                     <li>
                         组合 vs 继承:
-                        <InheritanceDemo>
+                        <Demo13Inheritance>
                             <span>这里插入一条内容，类似于：vue的solt</span>
-                        </InheritanceDemo>
+                        </Demo13Inheritance>
                     </li>
                     <hr/>
 

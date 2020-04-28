@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class PorpsDemo extends React.Component {
+export default class Demo04Porps extends React.Component {
     render() {
         const {pinying,name} = this.props;
         return (

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class FromDemo extends React.Component {
+export default class Demo10From extends React.Component {
     constructor(){
         super();
         this.state = {

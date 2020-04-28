@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class LifecycleDemo extends React.Component {
+export default class Demo08Lifecycle extends React.Component {
     constructor(props) {
         super(props);
         this.state = {

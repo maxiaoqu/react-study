@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class FromRefDemo extends React.Component {
+export default class Demo11FromRef extends React.Component {
     constructor(){
         super();
         this.username = React.createRef();

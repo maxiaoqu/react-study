@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class JsxDemo extends React.Component {
+export default class Demo01Jsx extends React.Component {
     // 普通的写法
     // render() {
     //     return <h5>Hello, 码小趣</h5>;

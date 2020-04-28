@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class RefDemo extends React.Component {
+export default class Demo12Ref extends React.Component {
     constructor() {
         super();
         this.HelloDiv = React.createRef();

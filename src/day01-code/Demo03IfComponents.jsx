@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class IfComponentsDemo extends React.Component {
+export default class Demo03IfComponents extends React.Component {
     /**
      * 常用的应用常见：
      *  1.对视图条件进行切换

@@ -6,7 +6,7 @@ class Welcome extends React.Component {
     }
 }
 
-export default class ComponentsDemo extends React.Component {
+export default class Demo02Components extends React.Component {
     // 函数组件
     // render() {
     //     function Welcome(props) {

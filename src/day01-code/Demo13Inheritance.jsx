@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class InheritanceDemo extends React.Component {
+export default class Demo13Inheritance extends React.Component {
     render(){
         return(
             <div>
