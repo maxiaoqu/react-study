@@ -1,7 +1,7 @@
 import React from 'react';
 import qs from 'querystring';
 
-export default class FetchPost extends React.Component {
+export default class Demo02FetchPost extends React.Component {
 
     constructor(props) {
         super(props);

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class FetchGet extends React.Component {
+export default class Demo01FetchGet extends React.Component {
 
     constructor(props) {
         super(props);

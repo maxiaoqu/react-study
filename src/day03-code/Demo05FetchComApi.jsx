@@ -1,7 +1,7 @@
 import React from 'react';
 import api from "../api";
 
-export default class fetchComApi extends React.Component {
+export default class demo05FetchComApi extends React.Component {
     constructor(props) {
         super(props);
         this.state = {

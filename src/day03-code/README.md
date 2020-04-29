@@ -6,16 +6,16 @@
 [mocks数据](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch)
 
 
-### Fetch Get请求--->>>(fetchGet.jsx)
+### Fetch Get请求--->>>(Demo01FetchGet.jsx)
 1、怎么使用Fetch获取数据并渲染
 
-### Fetch Post请求--->>>(fetchPost.jsx)
+### Fetch Post请求--->>>(Demo02FetchPost.jsx)
 模拟post请求
 
-### Fetch 跨域问题--->>>(fetchProxy.jsx)
+### Fetch 跨域问题--->>>(Demo03FetchProxy.jsx)
 参考create-react-app的相关文档
 
-### Fetch 跨域问题（mock）--->>>(fetchProxyMock.jsx)
+### Fetch 跨域问题（mock）--->>>(Demo04FetchProxyMock.jsx)
 mock数据使用node，具体参考mock文件夹，
 具体使用方法：
 * 1、开启一个新的cmd窗口，
@@ -23,5 +23,5 @@ mock数据使用node，具体参考mock文件夹，
 * 3、node index.js
 * 4、访问：http://localhost:3100/apiServe/list
 
-### Fetch 封装--->>>(fetchComApi.jsx)
-具体参考utils/http.js文件和api文件夹，
+### Fetch 封装--->>>(demo05FetchComApi.jsx)
+具体参考utils/http.js文件、api文件夹，

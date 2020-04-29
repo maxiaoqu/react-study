@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class FetchProxy extends React.Component {
+export default class Demo03FetchProxy extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
