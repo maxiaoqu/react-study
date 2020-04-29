@@ -3,9 +3,12 @@
 __MACOSX
 
 # webpack file
-package-lock.json
 node_modules
-build
+## day01
+*/package-lock.json
+*/yarn.lock
+*/node_modules
+*/build
 
 # Log files
 npm-debug.log*
