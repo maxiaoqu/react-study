@@ -20,10 +20,11 @@
 
 
 ## 学习相关目录
-[第1天学习:核心概念](/react-code01/)
-[第2天学习:Ant Design UI的使用](/react-code02/)
-[第3天学习:Fetch网络请求](/react-code02/)
-[第4天学习:React-Router](/react-code02/)
+- [第1天学习:核心概念](/react-code01/)
+- [第2天学习:Ant Design UI的使用](/react-code02/)
+- [第3天学习:Fetch网络请求](/react-code03/)
+- [第4天学习:React-Router](/react-code04/)
+- [第4天学习:Redux](/react-code05/)
 
 ## 文件结构
 ```shell
@@ -31,5 +32,6 @@
 ├── react-code02...................第一天学习的代码[Ant Design UI的使用]
 ├── react-code03...................第一天学习的代码[Fetch网络请求]
 ├── react-code04...................第一天学习的代码[React-Router]
+├── react-code05...................第一天学习的代码[Redux]
 └── XXxxxxxxxxxx...................第x天学习的代码[XXXXXX]
 ```
