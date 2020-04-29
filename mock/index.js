@@ -2,7 +2,7 @@
 /*
 * 1、开启一个新的cmd窗口，
 * 2、cd ./mock
-* 3、node index.js
+* 3、node index.jsx
 * 4、访问：http://localhost:3100/apiServe/list
 * */
 const express = require("express")
